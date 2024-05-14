@@ -1,14 +1,51 @@
 *{
     margin: 0;
-    height: 0;
+    padding: 0;
     box-sizing: border-box;
+    border-radius: 0 !important;
 }
 html, body{
     height: 100%;
     width: 100%;
+    /* position: fixed; */
 }
 #main{
-    height: 100%;
-    width: 100%;
+    /* border: 20px solid black; */
+}
+#first{
+
+    /* height: 400px; */
     background-color: black;
+    /* background-position: top; */
+    color: white;
+}
+#second{
+    /* height: 300px; */
+    background-color: #e5e5e5;
+}
+.card{
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0);
+}
+.card-title{
+    background-color: #c4c4c4;
+}
+.card-btn{
+    background: #c4c4c4 !important;
+}
+#third{
+    /* height: 300px; */
+    background-color: #fff;
+}
+#fourth{
+    /* height: 300px; */
+    background-color: #e5e5e5;
+}
+#fourth i{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.section-heading{
+    font-family: cursive;
+    font-size: 3rem;
+    font-weight: bolder;
 }
