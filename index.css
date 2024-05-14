@@ -7,21 +7,15 @@
 html, body{
     height: 100%;
     width: 100%;
-    /* position: fixed; */
 }
-#main{
-    /* border: 20px solid black; */
-}
-#first{
 
-    /* height: 400px; */
-    background-color: black;
-    /* background-position: top; */
-    color: white;
+#first{
+    /* background-color: black; */
+    color: black;
 }
 #second{
-    /* height: 300px; */
     background-color: #e5e5e5;
+    color: black;
 }
 .card{
     box-shadow: 5px 5px 5px 0px rgb(0 0 0);
@@ -33,11 +27,9 @@ html, body{
     background: #c4c4c4 !important;
 }
 #third{
-    /* height: 300px; */
     background-color: #fff;
 }
 #fourth{
-    /* height: 300px; */
     background-color: #e5e5e5;
 }
 #fourth i{
@@ -45,7 +37,6 @@ html, body{
     cursor: pointer;
 }
 .section-heading{
-    font-family: cursive;
     font-size: 3rem;
     font-weight: bolder;
 }
